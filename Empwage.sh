@@ -17,7 +17,7 @@ function getWorkingHrs() {
          workHrs=8
       ;;
       $IS_PART_TIME)
-         workHrs=4
+         workHrs=8
       ;;
       *)
          workHrs=0
