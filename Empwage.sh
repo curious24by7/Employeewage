@@ -1,1 +1,12 @@
-#Welcome to Employee wage computational program
+#!/bin/bash -x
+
+empCheck=$((RANDOM%2))
+isPresent=1
+
+if [ $empCheck -eq $isPresent ]
+then
+echo Employee is Present.
+else
+echo Employee is Absent.
+fi
+
